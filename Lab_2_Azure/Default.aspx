@@ -10,6 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <div class="calc-container">
+        <h1>Calculator</h1>
         <div>
             <asp:TextBox ID="CalcField" runat="server"></asp:TextBox>
         </div>
