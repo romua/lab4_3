@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <div class="calc-container">
-        <h1 style="text-align:center">Lab-2 GIT</h1>
+        <h1 style="text-align:center">Lab2 GIT</h1>
         <div style="width: 200px">
             <asp:TextBox ID="CalcField" runat="server"></asp:TextBox>
         </div>
