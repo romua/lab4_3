@@ -17,7 +17,7 @@ namespace Lab_2_Azure
 
         }
 
-        protected void btnAdd_Click(object sender, EventArgs e)
+        protected void buttonAdd_Click(object sender, EventArgs e)
         {
             var currentValue = double.Parse(CalcField.Text);
             ProceedLastOperation(currentValue);
@@ -26,7 +26,7 @@ namespace Lab_2_Azure
             CalcField.Text = tempValue.ToString();
         }
 
-        protected void btnSubtract_Click(object sender, EventArgs e)
+        protected void buttonSubtract_Click(object sender, EventArgs e)
         {
             var currentValue = double.Parse(CalcField.Text);
             ProceedLastOperation(currentValue);
@@ -35,7 +35,7 @@ namespace Lab_2_Azure
             CalcField.Text = tempValue.ToString();
         }
 
-        protected void btnMultiply_Click(object sender, EventArgs e)
+        protected void buttonMultiply_Click(object sender, EventArgs e)
         {
             var currentValue = double.Parse(CalcField.Text);
             ProceedLastOperation(currentValue);
@@ -44,7 +44,7 @@ namespace Lab_2_Azure
             CalcField.Text = tempValue.ToString();
         }
 
-        protected void btnDivide_Click(object sender, EventArgs e)
+        protected void buttonDivide_Click(object sender, EventArgs e)
         {
             var currentValue = double.Parse(CalcField.Text);
             ProceedLastOperation(currentValue);
@@ -53,7 +53,7 @@ namespace Lab_2_Azure
             CalcField.Text = tempValue.ToString();
         }
 
-        protected void btnCalculate_Click(object sender, EventArgs e)
+        protected void buttonCalculate_Click(object sender, EventArgs e)
         {
             var currentValue = double.Parse(CalcField.Text);
             ProceedLastOperation(currentValue);
@@ -84,7 +84,7 @@ namespace Lab_2_Azure
             }
         }
 
-        protected void btnClear_Click(object sender, EventArgs e)
+        protected void buttonClear_Click(object sender, EventArgs e)
         {
             tempValue = 0;
             LastOperation = Operations.None;

@@ -31,57 +31,57 @@ namespace Lab_2_Azure {
         protected global::System.Web.UI.WebControls.TextBox CalcField;
         
         /// <summary>
-        /// btnClear control.
+        /// buttonAdd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnClear;
+        protected global::System.Web.UI.WebControls.Button buttonAdd;
         
         /// <summary>
-        /// btnAdd control.
+        /// buttonSubtract control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAdd;
+        protected global::System.Web.UI.WebControls.Button buttonSubtract;
         
         /// <summary>
-        /// btnSubtract control.
+        /// buttonClear control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubtract;
+        protected global::System.Web.UI.WebControls.Button buttonClear;
         
         /// <summary>
-        /// btnMultiply control.
+        /// buttonMultiply control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnMultiply;
+        protected global::System.Web.UI.WebControls.Button buttonMultiply;
         
         /// <summary>
-        /// btnDivide control.
+        /// buttonDivide control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnDivide;
+        protected global::System.Web.UI.WebControls.Button buttonDivide;
         
         /// <summary>
-        /// btnCalculate control.
+        /// btnbuttonCalculate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCalculate;
+        protected global::System.Web.UI.WebControls.Button btnbuttonCalculate;
     }
 }

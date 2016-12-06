@@ -10,30 +10,37 @@
 <body>
     <form id="form1" runat="server">
     <div class="calc-container">
-        <h1>Calculator</h1>
-        <div>
+        <h1 style="text-align:center">Lab-2 GIT</h1>
+        <div style="width: 200px">
             <asp:TextBox ID="CalcField" runat="server"></asp:TextBox>
         </div>
         <div class="bottom-section">
             <div class="numbers-section">
-                <input type="button" class="calc-number" value="0" />
-                <input type="button" class="calc-number" value="1" />
-                <input type="button" class="calc-number" value="2" />
-                <input type="button" class="calc-number" value="3" />
+                <input type="button" class="calc-number" value="7" />
+                <input type="button" class="calc-number" value="8" />
+                <input type="button" class="calc-number" value="9" /> 
+                
                 <input type="button" class="calc-number" value="4" />
                 <input type="button" class="calc-number" value="5" />
                 <input type="button" class="calc-number" value="6" />
-                <input type="button" class="calc-number" value="7" />
-                <input type="button" class="calc-number" value="8" />
-                <input type="button" class="calc-number" value="9" />            
+                
+                <input type="button" class="calc-number" value="1" />
+                <input type="button" class="calc-number" value="2" />
+                <input type="button" class="calc-number" value="3" />
+                
+
+                <input type="button" class="calc-number" value="0" />
+
+               <asp:Button ID="buttonAdd" runat="server" Text="+" OnClick="buttonAdd_Click" />
+               <asp:Button ID="buttonSubtract" runat="server" Text="-"  OnClick="buttonSubtract_Click"/>
+                
             </div>
             <div class="operations-section">
-                <asp:Button ID="btnClear" runat="server" Text="C" OnClick="btnClear_Click" />
-                <asp:Button ID="btnAdd" runat="server" Text="+" OnClick="btnAdd_Click" />
-                <asp:Button ID="btnSubtract" runat="server" Text="-"  OnClick="btnSubtract_Click"/>
-                <asp:Button ID="btnMultiply" runat="server" Text="*"  OnClick="btnMultiply_Click"/>
-                <asp:Button ID="btnDivide" runat="server" Text="/" OnClick="btnDivide_Click"/>
-                <asp:Button ID="btnCalculate" runat="server" Text="=" OnClick="btnCalculate_Click"/>
+                
+                <asp:Button ID="buttonClear" runat="server" Text="C" OnClick="buttonClear_Click" />
+                <asp:Button ID="buttonMultiply" runat="server" Text="*"  OnClick="buttonMultiply_Click"/>
+                <asp:Button ID="buttonDivide" runat="server" Text="/" OnClick="buttonDivide_Click"/>
+                <asp:Button ID="btnbuttonCalculate" runat="server" Text="=" OnClick="buttonCalculate_Click"/>
             </div>            
         </div>
     </div>
